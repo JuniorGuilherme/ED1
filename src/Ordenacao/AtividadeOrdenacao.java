@@ -18,6 +18,7 @@ public class AtividadeOrdenacao {
         Random gerador = new Random();
         MetodosSorts ms = new MetodosSorts();
         //Loop para atribuicao dos numeros randomicos aos vetores.
+        System.out.println("Vetor desordenado: ");
         for(int i =0; i<vetor1.length; i++){
             vetor1[i]=gerador.nextInt(100000);
             System.out.println(vetor1[i]);
@@ -25,14 +26,16 @@ public class AtividadeOrdenacao {
             vetor3[i]=vetor1[i];
         }
         //Chamada dos metodos de ordenacao com retorno em Milisegundos para as variaveis longs.
-        elapsed3 = ms.bubleSort(vetor3);
-        elapsed1 = ms.selectSort(vetor1);
-        elapsed2 = ms.insertSort(vetor2);
+        elapsed3 = ms.bubleSort(vetor1);
+        elapsed1 = ms.selectSort(vetor2);
+        elapsed2 = ms.insertSort(vetor3);
         //Metodo mostrar apenas para verificacao de fidelidade dos metodos de ordenacao.
         //Nao testar com muitos elementos nos vetores.
-        mostrar(vetor1);
-        mostrar(vetor2);
-        mostrar(vetor3);
+
+        //mostrar(vetor1);
+        //mostrar(vetor2);
+        //mostrar(vetor3);
+
         //Exibicao dos times dos metodos de ordenacao.
         System.out.println("Tempos de Execucao");
         System.out.println("Selection Sort: "+elapsed1+" ms");
