@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb3aafe-c8b2-4c99-acdd-b4cf02fb6b77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ED1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ListaEncadeada/Elemento.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ListaEncadeada/Lista.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ListaEncadeada/Principal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ordenacao/AtividadeOrdenacao.java" afterPath="$PROJECT_DIR$/src/Ordenacao/AtividadeOrdenacao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ordenacao/MetodosSorts.java" afterPath="$PROJECT_DIR$/src/Ordenacao/MetodosSorts.java" />
     </list>
     <ignored path="Estruturas-de-Dados-I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -705,12 +694,20 @@
       <option name="presentableId" value="Default" />
       <updated>1476738164907</updated>
       <workItem from="1476738170584" duration="2022000" />
-      <workItem from="1476741713137" duration="22192000" />
+      <workItem from="1476741713137" duration="22555000" />
     </task>
+    <task id="LOCAL-00001" summary="Finalização Sorts - Desenvolvimento Lista Encadeada">
+      <created>1477083957724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477083957724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24214000" />
+    <option name="totallyTimeSpent" value="24577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -753,6 +750,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finalização Sorts - Desenvolvimento Lista Encadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização Sorts - Desenvolvimento Lista Encadeada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
