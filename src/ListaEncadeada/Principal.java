@@ -30,12 +30,21 @@ public class Principal {
                     break;
                 }
                 case 3:{
-
-                    list.addPosicao();
+                    Elemento e = new Elemento();
+                    e.ler();
+                    list.addPosicao(e);
                     break;
                 }
                 case 4: {
+                    list.delInicio();
+                    break;
+                }
+                case 5: {
                     list.delPosicao();
+                    break;
+                }
+                case 6: {
+                    list.delFim();
                     break;
                 }
                 case 7: {

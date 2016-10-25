@@ -26,6 +26,7 @@ public class Lista {
             e.proximo=this.inicio;
             this.qtd++;
             this.inicio=e;
+            Elemento x = this.inicio;
             return true;
         }
     }
@@ -42,11 +43,16 @@ public class Lista {
         }
     }
     public void listar(){
-        Elemento x;
-        x=this.inicio;
-        while(x!=null){
-            System.out.println("Elemento: "+x.valor);
-            x=x.proximo;
+        if(this.inicio!=null) {
+            Elemento x;
+            x = this.inicio;
+            while (x != null) {
+                System.out.println("Elemento: " + x.valor);
+                x = x.proximo;
+            }
+        }
+        else{
+            System.out.println("Lista ainda vazia.");
         }
     }
     public Elemento pesquisa(int p){
@@ -62,41 +68,82 @@ public class Lista {
         }
         return null;
     }
-    public boolean addPosicao(){
-        Elemento x;
+    public boolean addPosicao(Elemento e){
+        Elemento x = this.inicio;
         if(this.inicio!=null) {
-            System.out.println("Digite o valor da posição a ser modificada: ");
+
+            System.out.println("Digite a posição:");
             int y = tc.nextInt();
-            for (x = this.inicio; x != null; x = x.proximo) {
-                if (y == x.valor) {
-                    System.out.println("Insira o novo valor.");
-                    x.valor = tc.nextInt();
-                    return true;
-                }
+            if(y>this.qtd){
+                addFim(e);
             }
+            else {
+                for (int i = 1; i < y - 1; i++) {
+                    x = x.proximo;
+                }
+                e.proximo = x.proximo;
+                x.proximo = e;
+                qtd++;
+            }
+            return true;
         }
-        else {
-            System.out.println("Ainda não existem elementos na lista.");
-            return false;
+        else{
+            primeiroElemento(e);
+            return true;
         }
-        System.out.println("Valor não encontrado.");
-        return false;
     }
     public boolean delPosicao(){
-        System.out.println("Digite o valor a ser deletado:");
-        int x = tc.nextInt();
-        Elemento e;
-        for(e = this.inicio; e.proximo!=null; e=e.proximo){
-            if(e.valor==x){
-                while(e.proximo!=null){
-                    e=e.proximo;
-                    System.out.println("Delete.");
+        int x;
+        if(this.inicio!=null && qtd>1) {
+            System.out.println("Digite a posição:");
+            do {
+                x = tc.nextInt();
+                if(x>this.qtd){
+                    System.out.println("Posição inexistente.");
                 }
-                e.proximo=null;
-                this.fim=e;
-                return true;
+            }while(x>this.qtd);
+            Elemento e = this.inicio;
+            for (int i = 1; i < x - 1; i++) {
+                e = e.proximo;
             }
+            e.mostrar();
+            e.proximo = e.proximo.proximo;
+            this.qtd--;
+            return true;
         }
-        return false;
+        if(this.qtd==1){
+            delInicio();
+        }
+        return true;
+    }
+    public boolean delInicio(){
+        if(this.inicio==null ) {
+            System.out.println("A lista esta vazia.");
+        }
+        else if(this.qtd==1){
+            this.inicio=null;
+            this.qtd--;
+        }
+        else {
+            Elemento e;
+            e=this.inicio.proximo;
+            this.inicio=e;
+            e=null;
+            qtd--;
+        }
+        return true;
+    }
+    public boolean delFim(){
+        Elemento x=this.inicio;
+        System.out.println("Fim: "+this.fim.valor);
+        this.fim=null;
+        for(int i=1; i<qtd-1; i++){
+            x=x.proximo;
+        }
+        System.out.println("Elemento: "+x.valor);
+        x.proximo=null;
+        this.fim=x;
+        this.qtd--;
+        return true;
     }
 }
