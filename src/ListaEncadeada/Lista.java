@@ -98,10 +98,10 @@ public class Lista {
             System.out.println("Digite a posição:");
             do {
                 x = tc.nextInt();
-                if(x>this.qtd){
+                if(x>this.qtd || x<1){
                     System.out.println("Posição inexistente.");
                 }
-            }while(x>this.qtd);
+            }while(x>this.qtd || x<1);
             Elemento e = this.inicio;
             for (int i = 1; i < x - 1; i++) {
                 e = e.proximo;
