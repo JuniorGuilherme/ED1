@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb3aafe-c8b2-4c99-acdd-b4cf02fb6b77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListaEncadeada/Lista.java" afterPath="$PROJECT_DIR$/src/ListaEncadeada/Lista.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ListaEncadeada/Principal.java" afterPath="$PROJECT_DIR$/src/ListaEncadeada/Principal.java" />
     </list>
     <ignored path="Estruturas-de-Dados-I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -674,7 +672,7 @@
       <workItem from="1476738170584" duration="2022000" />
       <workItem from="1476741713137" duration="22691000" />
       <workItem from="1477343528702" duration="808000" />
-      <workItem from="1477426236593" duration="12643000" />
+      <workItem from="1477426236593" duration="12695000" />
     </task>
     <task id="LOCAL-00001" summary="Finalização Sorts - Desenvolvimento Lista Encadeada">
       <created>1477083957724</created>
@@ -690,11 +688,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477084239065</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finalização do algoritmo de lista encadeada.">
+      <created>1477439005826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1477439005826</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38164000" />
+    <option name="totallyTimeSpent" value="38216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1050" extended-state="0" />
@@ -740,7 +745,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finalização Sorts - Desenvolvimento Lista Encadeada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalização Sorts - Desenvolvimento Lista Encadeada" />
+    <MESSAGE value="Finalização do algoritmo de lista encadeada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização do algoritmo de lista encadeada." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
