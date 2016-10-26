@@ -51,6 +51,12 @@ public class Principal {
                     list.listar();
                     break;
                 }
+                case 8: {
+                    System.out.println("Digite o valor a ser procurado:");
+                    int x = tc.nextInt();
+                    list.pesquisa(x);
+
+                }
             }
         }while(op!=9);
     }

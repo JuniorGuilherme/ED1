@@ -55,18 +55,18 @@ public class Lista {
             System.out.println("Lista ainda vazia.");
         }
     }
-    public Elemento pesquisa(int p){
+    public boolean pesquisa(int p){
         Elemento x;
         x=this.inicio;
         while(x!=null){
             if(x.valor==p){
-                return x;
+                System.out.println("Elemento encontrado.");
             }
             else {
                 x=x.proximo;
             }
         }
-        return null;
+        return false;
     }
     public boolean addPosicao(Elemento e){
         Elemento x = this.inicio;
