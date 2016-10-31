@@ -60,7 +60,13 @@ public class Principal {
                     System.out.println("Digite o valor a ser procurado:");
                     int x = tc.nextInt();
                     list.pesquisa(x);
-
+                    break;
+                }
+                case 9: {
+                    System.out.println("Algoritmo encerrado.");
+                }
+                default: {
+                    System.out.println("Opcao de menu digitada inexistente. Tente novamente.");
                 }
             }
         }while(op!=9);
