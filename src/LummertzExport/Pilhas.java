@@ -26,4 +26,18 @@ public class Pilhas {
             return true;
         }
     }
+    public void mostrar(){
+        Pilha p = this.inicio;
+        Conteiner c;
+        do{
+            c=p.inicio;
+            do{
+                System.out.println("Codigo: "+c.codigo);
+                System.out.println("País: "+c.pais);
+                System.out.println("Tipo: "+c.tipo);
+                c=c.proximo;
+            }while(c.proximo!=null);
+            p=p.proxima;
+        }while(p!=null);
+    }
 }

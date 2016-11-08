@@ -10,12 +10,15 @@ public class Conteiner {
     Conteiner proximo;
 
     public void ler(){
-        System.out.println("Digite o codigo:");
-        Scanner tc = new Scanner(System.in);
-        codigo=tc.next();
-        System.out.println("Digite o pais:");
-        pais=tc.next();
-        System.out.println("Digite o tipo:");
-        tipo=tc.next();
+        for(int i=0; i<5; i++) {
+            System.out.println("Conteiner["+(i+1)+"]:");
+            System.out.println("Digite o codigo:");
+            Scanner tc = new Scanner(System.in);
+            codigo = tc.next();
+            System.out.println("Digite o pais:");
+            pais = tc.next();
+            System.out.println("Digite o tipo:");
+            tipo = tc.next();
+        }
     }
 }
