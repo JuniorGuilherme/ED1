@@ -21,9 +21,8 @@ public class LummertzExport {
     }
 
     public static void main(String[] args) {
-        int op = 0;
+        int op;
         Long alertaContainer = System.currentTimeMillis();
-        List list = new List();
 
         List A = new List();
         List B = new List();

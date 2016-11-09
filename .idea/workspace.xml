@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb3aafe-c8b2-4c99-acdd-b4cf02fb6b77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LummertzExport/Pilhas.java" afterPath="$PROJECT_DIR$/src/LummertzExport/List.java" />
+    <list default="true" id="cfb3aafe-c8b2-4c99-acdd-b4cf02fb6b77" name="Default" comment="Finalização Desenvolvimento Funcional (Falta validações)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LummertzExport/Conteiner.java" afterPath="$PROJECT_DIR$/src/LummertzExport/Conteiner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LummertzExport/List.java" afterPath="$PROJECT_DIR$/src/LummertzExport/List.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LummertzExport/LummertzExport.java" afterPath="$PROJECT_DIR$/src/LummertzExport/LummertzExport.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LummertzExport/Pilha.java" afterPath="$PROJECT_DIR$/src/LummertzExport/Pilha.java" />
     </list>
     <ignored path="Estruturas-de-Dados-I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Conteiner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conteiner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LummertzExport/Conteiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="396">
+              <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LummertzExport.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LummertzExport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LummertzExport/LummertzExport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="-88">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LummertzExport/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+            <state relative-caret-position="2048">
+              <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -98,9 +98,9 @@
         <option value="$PROJECT_DIR$/src/ListaEncadeada/LummertzExport.java" />
         <option value="$PROJECT_DIR$/src/LummertzExport/Pilha.java" />
         <option value="$PROJECT_DIR$/src/LummertzExport/Pilhas.java" />
-        <option value="$PROJECT_DIR$/src/LummertzExport/Conteiner.java" />
-        <option value="$PROJECT_DIR$/src/LummertzExport/List.java" />
         <option value="$PROJECT_DIR$/src/LummertzExport/LummertzExport.java" />
+        <option value="$PROJECT_DIR$/src/LummertzExport/List.java" />
+        <option value="$PROJECT_DIR$/src/LummertzExport/Conteiner.java" />
       </list>
     </option>
   </component>
@@ -739,7 +739,7 @@
       <workItem from="1477933279545" duration="1770000" />
       <workItem from="1478624965059" duration="711000" />
       <workItem from="1478628766463" duration="4586000" />
-      <workItem from="1478639090454" duration="19646000" />
+      <workItem from="1478639090454" duration="21782000" />
     </task>
     <task id="LOCAL-00001" summary="Finalização Sorts - Desenvolvimento Lista Encadeada">
       <created>1477083957724</created>
@@ -797,15 +797,22 @@
       <option name="project" value="LOCAL" />
       <updated>1478630703872</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalização Desenvolvimento Funcional (Falta validações)">
+      <created>1478733790554</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478733790554</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65939000" />
+    <option name="totallyTimeSpent" value="68075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -815,7 +822,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28638497" sideWeight="0.5021645" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3364269" sideWeight="0.4978355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3364269" sideWeight="0.4978355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -876,7 +883,8 @@
     <MESSAGE value="Finalização Sorts - Desenvolvimento Lista Encadeada" />
     <MESSAGE value="Finalização do algoritmo de lista encadeada." />
     <MESSAGE value="Desenvolvimento LummertzExport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvimento LummertzExport" />
+    <MESSAGE value="Finalização Desenvolvimento Funcional (Falta validações)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalização Desenvolvimento Funcional (Falta validações)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,7 +929,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,27 +1193,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LummertzExport/Conteiner.java">
+    <entry file="file://$PROJECT_DIR$/src/LummertzExport/LummertzExport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        <state relative-caret-position="-88">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LummertzExport/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+        <state relative-caret-position="2048">
+          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LummertzExport/LummertzExport.java">
+    <entry file="file://$PROJECT_DIR$/src/LummertzExport/Conteiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="25" column="87" selection-start-line="25" selection-start-column="87" selection-end-line="25" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

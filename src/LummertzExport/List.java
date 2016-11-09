@@ -100,9 +100,9 @@ public class List {
             Conteiner x = this.base;
             if (this.base.proximo != null) {
                 while (x.proximo != null) {
-                    x.atualTime = (System.currentTimeMillis() - x.timeInit) / 1000;
+                    x.atualTime = (System.currentTimeMillis() - x.timeInit) / 60000;
                     System.out.println("Conteiner Codigo: "+x.codigo);
-                    if (x.atualTime >= 24) {
+                    if (x.atualTime >= 4) {
                         System.out.println("Status: Vencido.");
                     } else {
                         aux.addTopo(x);
@@ -112,9 +112,9 @@ public class List {
                 }
                 return aux;
             } else {
-                x.atualTime = (System.currentTimeMillis() - x.timeInit) / 1000;
+                x.atualTime = (System.currentTimeMillis() - x.timeInit) / 60000;
                 System.out.println("Conteiner Codigo: "+x.codigo);
-                if (x.atualTime >= 24) {
+                if (x.atualTime >= 4) {
                     System.out.println("Status: Vencido.");
                 } else {
                     aux.addTopo(x);

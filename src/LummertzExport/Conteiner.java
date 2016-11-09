@@ -1,6 +1,9 @@
 package LummertzExport;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Created by Junior Guilherme on 08/11/2016.
  */
@@ -11,9 +14,20 @@ public class Conteiner {
     Conteiner proximo;
 
     public void ler(){
-            System.out.println("Digite o codigo:");
+            int flag;
             Scanner tc = new Scanner(System.in);
-            codigo = tc.next();
+            System.out.println("Digite o codigo:");
+            Pattern patern = Pattern.compile("[a-zA-Z]{2,2}-\\d{4,4}");
+            do {
+                flag=0;
+                codigo = tc.next();
+                Matcher matcher = patern.matcher(codigo);
+                if(!matcher.find()){
+                    System.out.println("Codigo incorreto. Digite neste formato: XX-0000");
+                    flag=1;
+                }
+            }while(flag!=0);
+
             System.out.println("Digite o pais:");
             pais = tc.next();
             System.out.println("Perecivel? S (Sim) ou N (Não): ");
