@@ -6,39 +6,50 @@ package LummertzExport;
  * Created by Junior Guilherme on 08/11/2016.
  */
 public class Pilha {
-    Conteiner inicio, fim;
-    int qtd;
-    Pilha proxima;
-    Pilhas ps = new Pilhas();
+    Conteiner[] p = new Conteiner[5];
+    int topo;
 
-    public boolean primeiroContainer(Conteiner c){
-        this.inicio=c;
-        this.fim=c;
-        this.qtd++;
-        return true;
-    }
-    public boolean addInicio(Conteiner c){
-        if(this.inicio == null){
-            primeiroContainer(c);
-            return true;
+    public void addTopo(Conteiner c){
+        if(!isFull()) {
+            this.topo++;
+            this.p[this.topo] = c;
+            System.out.println("Container adicionado.");
         }
-        else {
-            c.proximo=this.inicio;
-            this.qtd++;
-            this.inicio=c;
-            return true;
+        else{
+            System.out.println("Pilha cheia.");
         }
     }
-    public boolean addFim(Conteiner c){
-        if(this.inicio==null){
-            primeiroContainer(c);
-            return true;
+
+    public void isInit(){
+        this.topo=-1;
+        System.out.println("Pilha inicializada.");
+    }
+
+    public boolean pop(){
+        if(this.topo==-1){
+            return false;
         }
-        else {
-            this.fim.proximo=c;
-            this.qtd++;
-            this.fim=c;
+        else{
+            this.topo--;
             return true;
         }
     }
+
+    public boolean isFull(){
+        if(this.topo==5){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public void exibir(){
+        for(int i=0; i<=this.topo;i++){
+            System.out.println("Codigo "+i+": "+this.p[i].codigo);
+            System.out.println("Perecivel "+i+": "+this.p[i].tipo);
+            System.out.println("País "+i+": "+this.p[i].pais);
+        }
+    }
+
 }
