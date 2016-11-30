@@ -95,7 +95,7 @@ public class Orgaos {
                     System.out.println("Operação suspensa.");
                 }
             }
-        }while (op!=0);
+        }while (op<0 || op>4);
     }
     public void mostrarDoador(){
         String orgaos = "Orgaos doados: ";

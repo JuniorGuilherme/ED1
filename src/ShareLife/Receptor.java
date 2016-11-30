@@ -9,8 +9,16 @@ public class Receptor {
     Pessoa p;
     Orgaos org;
     Receptor anterior, proximo;
+    int urgencia;
 
-    public void ler(){
+    public void ler(Scanner tc){
+        do {
+            System.out.println("Digite a urgencia:");
+            urgencia=tc.nextInt();
+            if(urgencia<1 || urgencia>5){
+                System.out.println("Grau de urgencia entre 1 e 5. Tente novamente.");
+            }
+        }while(urgencia<1 || urgencia>5);
         p = new Pessoa();
         org = new Orgaos();
         p.ler();

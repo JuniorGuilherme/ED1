@@ -26,7 +26,7 @@ public class Principal {
         do{
             System.out.println("1 - Cadastrar Doador");
             System.out.println("2 - Cadastrar Receptor");
-            System.out.println("3 - Realziar Transplante");
+            System.out.println("3 - Realizar Transplante");
             System.out.println("4 - Total de Transplantes");
             System.out.println("5 - Tamanho da Fila de Espera");
             System.out.println("6 - Mostrar Listas de Espera");
@@ -46,11 +46,12 @@ public class Principal {
                 }
                 case 2:{
                     Receptor r = new Receptor();
-                    r.ler();
+                    r.ler(tc);
                     receptores.addFim(r);
                     break;
                 }
                 case 3:{
+
                     break;
                 }
                 case 4:{

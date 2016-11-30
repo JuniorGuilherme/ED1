@@ -20,7 +20,30 @@ public class ListaReceptor {
         this.inicio=r;
         this.fim=r;
     }
+
+    public void sortUrgencia() {
+        Receptor x, r;
+        x = this.fim;
+        r= this.fim;
+        if (!isEmpty()) {
+
+            while(x.urgencia<r.urgencia){
+                x.proximo.anterior=r.anterior;
+
+            }
+
+
+
+
+
+        } else {
+            primeiroReceptor(r);
+        }
+    }
+
     public void addFim(Receptor r){
+
+
         if(!isEmpty()){
             r.anterior=this.fim;
             this.fim.proximo=r;
@@ -39,5 +62,8 @@ public class ListaReceptor {
             x=x.proximo;
             x.mostrar();
         }
+    }
+    public void transplante(ListaDoador l){
+
     }
 }

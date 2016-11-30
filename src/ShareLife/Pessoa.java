@@ -12,7 +12,7 @@ public class Pessoa {
     public void ler(){
         Scanner tc = new Scanner(System.in);
         int opSang;
-        System.out.println("Nome do Doador:");
+        System.out.println("Nome:");
         this.nome=tc.next();
         System.out.println("Idade:");
         this.idade=tc.nextInt();
@@ -24,27 +24,35 @@ public class Pessoa {
             switch (opSang){
                 case 1:{
                     tipoSang="A-";
+                    break;
                 }
                 case 2:{
                     tipoSang="A+";
+                    break;
                 }
                 case 3:{
                     tipoSang="B-";
+                    break;
                 }
                 case 4:{
                     tipoSang="B+";
+                    break;
                 }
                 case 5:{
                     tipoSang="AB+";
+                    break;
                 }
                 case 6:{
                     tipoSang="AB-";
+                    break;
                 }
                 case 7:{
                     tipoSang="O+";
+                    break;
                 }
                 case 8:{
                     tipoSang="O-";
+                    break;
                 }
             }
             if(opSang<1 || opSang>8){
