@@ -19,36 +19,49 @@ public class ListaReceptor {
     public void primeiroReceptor(Receptor r){
         this.inicio=r;
         this.fim=r;
+        this.qtd++;
     }
 
     public void sortUrgencia() {
-        Receptor x, r;
+        Receptor x;
         x = this.fim;
-        r= this.fim;
-        if (!isEmpty()) {
-
-            while(x.urgencia<r.urgencia){
-                x.proximo.anterior=r.anterior;
-
-            }
-
-
-
-
-
-        } else {
-            primeiroReceptor(r);
+            while(x.urgencia < x.anterior.urgencia && x.anterior != null) {
+                x.anterior.proximo=x.proximo;
+                x.proximo=x.anterior;
+                x.anterior=x.anterior.anterior;
+                if(x.anterior!=null){
+                    x.anterior.proximo=x;
+                }
+                x.proximo.anterior=x;
         }
     }
 
     public void addFim(Receptor r){
-
-
-        if(!isEmpty()){
+        if(!isEmpty() && this.qtd>1){
             r.anterior=this.fim;
             this.fim.proximo=r;
             this.fim=r;
             qtd++;
+            sortUrgencia();
+        }
+        else{
+            primeiroReceptor(r);
+        }
+    }
+    public void addSeg(Receptor r){
+        if(this.fim.urgencia>r.urgencia){
+            addInicio(r);
+        }
+        else {
+            addFim(r);
+        }
+    }
+    public void addInicio(Receptor r){
+        if(!isEmpty()){
+            r.proximo=this.inicio;
+            r.proximo.anterior=r;
+            this.inicio=r;
+            this.qtd++;
         }
         else{
             primeiroReceptor(r);
