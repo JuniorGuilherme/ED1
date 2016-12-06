@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cfb3aafe-c8b2-4c99-acdd-b4cf02fb6b77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShareLife/ListaDoador.java" afterPath="$PROJECT_DIR$/src/ShareLife/ListaDoador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShareLife/ListaReceptor.java" afterPath="$PROJECT_DIR$/src/ShareLife/ListaReceptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShareLife/Orgaos.java" afterPath="$PROJECT_DIR$/src/ShareLife/Orgaos.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShareLife/Principal.java" afterPath="$PROJECT_DIR$/src/ShareLife/Principal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ShareLife/Receptor.java" afterPath="$PROJECT_DIR$/src/ShareLife/Receptor.java" />
     </list>
     <ignored path="Estruturas-de-Dados-I.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListaDoador.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListaDoador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ShareLife/ListaDoador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -116,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Orgaos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Orgaos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ShareLife/Orgaos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1181">
-              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="602">
+              <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/ShareLife/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/ShareLife/Principal.java" />
         <option value="$PROJECT_DIR$/src/ShareLife/Receptor.java" />
-        <option value="$PROJECT_DIR$/src/ShareLife/Orgaos.java" />
         <option value="$PROJECT_DIR$/src/ShareLife/ListaReceptor.java" />
         <option value="$PROJECT_DIR$/src/ShareLife/ListaDoador.java" />
+        <option value="$PROJECT_DIR$/src/ShareLife/Orgaos.java" />
       </list>
     </option>
   </component>
@@ -844,7 +840,7 @@
       <workItem from="1480452952756" duration="10282000" />
       <workItem from="1480466962348" duration="8747000" />
       <workItem from="1480787505467" duration="590000" />
-      <workItem from="1480995491658" duration="14429000" />
+      <workItem from="1480995491658" duration="14969000" />
     </task>
     <task id="LOCAL-00001" summary="Finalização Sorts - Desenvolvimento Lista Encadeada">
       <created>1477083957724</created>
@@ -923,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480476094144</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Desenvolvimento Concluido Projeto Doacao de Orgaos">
+      <created>1481043310559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1481043310559</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126310000" />
+    <option name="totallyTimeSpent" value="126850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1066" extended-state="6" />
@@ -941,11 +944,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28638497" sideWeight="0.5021645" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14469454" sideWeight="0.4978355" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114683814" sideWeight="0.4978355" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10810811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10810811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1004,7 +1007,8 @@
     <MESSAGE value="Desenvolvimento LummertzExport" />
     <MESSAGE value="Finalização Desenvolvimento Funcional (Falta validações)" />
     <MESSAGE value="Desenvolvimento Metodo Ordenacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvimento Metodo Ordenacao" />
+    <MESSAGE value="Desenvolvimento Concluido Projeto Doacao de Orgaos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvimento Concluido Projeto Doacao de Orgaos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1353,16 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ShareLife/Orgaos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1181">
-          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShareLife/Receptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1412,6 +1406,16 @@
         <state relative-caret-position="255">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ShareLife/Orgaos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="113" column="29" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

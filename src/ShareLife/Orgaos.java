@@ -111,6 +111,7 @@ public class Orgaos {
             orgaos=orgaos+"nenhum";
         }
         System.out.println(orgaos);
+        System.out.println("");
     }
     public void mostrarReceptor(){
         System.out.println("Transplante desejado: "+this.transplante);
