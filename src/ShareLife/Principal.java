@@ -51,13 +51,36 @@ public class Principal {
                     break;
                 }
                 case 3:{
-
+                    receptores.sortUrgencia(doadores);
                     break;
                 }
                 case 4:{
+                    System.out.println("Total de transplantes realizados: "+ doadores.qtdTransp);
                     break;
                 }
                 case 5:{
+                    int esc;
+                    do{
+                        System.out.println("Escolha a fila de espera:\n1 - Doadores | 2 - Receptores | 0 - Sair");
+                        esc = tc.nextInt();
+                        switch (esc){
+                            case 1:{
+                                System.out.println("Tamanho da fila de Doadores: "+ doadores.qtd);
+                            }
+                            break;
+                            case  2:{
+                                System.out.println("Tamanho da fila de Receptores: "+receptores.qtd);
+                            }
+                            break;
+                            case 0:{
+                                System.out.println("Menu suspenso.");
+                            }
+                            break;
+                            default:{
+                                System.out.println("Opcao incorreta.");
+                            }
+                        }
+                    }while (esc!=0);
                     break;
                 }
                 case 6:{

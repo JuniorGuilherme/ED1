@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Created by jrg_c on 22/11/2016.
  */
 public class Orgaos {
-    boolean corneas, coracao, sangue, medula;
+    String[] vetor = new String[4];
     String transplante;
     int op;
 
@@ -21,10 +21,9 @@ public class Orgaos {
             }
         }while(op!=1 && op!=2);
         if(op==1){
-            this.corneas=true;
-        }
-        else{
-            this.corneas=false;
+            vetor[0]="corneas";
+        }else{
+            vetor[0]="";
         }
         System.out.println("Coração 1 - Sim 2 - Não");
         do {
@@ -34,10 +33,9 @@ public class Orgaos {
             }
         }while(op!=1 && op!=2);
         if(op==1){
-            this.coracao=true;
-        }
-        else{
-            this.coracao=false;
+            vetor[1]="coracao";
+        }else{
+            vetor[1]="";
         }
         System.out.println("Sangue 1 - Sim 2 - Não");
         do {
@@ -47,10 +45,9 @@ public class Orgaos {
             }
         }while(op!=1 && op!=2);
         if(op==1){
-            this.sangue=true;
-        }
-        else{
-            this.sangue=false;
+            vetor[2]="sangue";
+        }else{
+            vetor[2]="";
         }
         System.out.println("Medula 1 - Sim 2 - Não");
         do {
@@ -60,10 +57,9 @@ public class Orgaos {
             }
         }while(op!=1 && op!=2);
         if(op==1){
-            this.medula=true;
-        }
-        else{
-            this.medula=false;
+            vetor[3]="medula";
+        }else{
+            vetor[3]="";
         }
     }
     public void lerReceptor(){
@@ -99,17 +95,17 @@ public class Orgaos {
     }
     public void mostrarDoador(){
         String orgaos = "Orgaos doados: ";
-        if(this.corneas){
-            orgaos = orgaos + "| corneas |";
+        if(vetor[0]!=null){
+            orgaos = orgaos + vetor[0] +" ";
         }
-        if(this.coracao){
-            orgaos = orgaos + "| coração |";
+        if(vetor[1]!=null){
+            orgaos = orgaos + vetor[1] +" ";
         }
-        if(this.sangue){
-            orgaos = orgaos + "| sangue |";
+        if(vetor[2]!=null){
+            orgaos = orgaos + vetor[2] +" ";
         }
-        if(this.medula){
-            orgaos = orgaos + "| medula |";
+        if(vetor[3]!=null){
+            orgaos = orgaos + vetor[3];
         }
         if(orgaos=="Orgaos doados: "){
             orgaos=orgaos+"nenhum";

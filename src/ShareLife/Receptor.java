@@ -26,6 +26,7 @@ public class Receptor {
     }
     public void mostrar(){
         p.mostrar();
+        System.out.println("Urgencia:"+this.urgencia);
         org.mostrarReceptor();
     }
 }
